@@ -9,4 +9,8 @@ public:
     {
         return a + b + c;
     }
+	  int getGop(int a, int b)
+	  {
+		    return a * b;
+	  }
 };
