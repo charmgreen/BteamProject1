@@ -4,4 +4,4 @@ jobs:
   cpplint:
     runs-on: windows
     steps:
-    - run: cpplint --recursive .
+    - run: cpplint --output=vs7 --extensions=h,hpp,c,cpp .
