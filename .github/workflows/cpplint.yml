@@ -1,0 +1,7 @@
+name: cpplint
+on: [pull_request]
+jobs:
+  cpplint:
+    runs-on: windows
+    steps:
+    - run: cpplint --recursive .
