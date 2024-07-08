@@ -31,4 +31,8 @@ public:
 		}
 		return (a / b);
 	}
+	int test(int a, int b)
+	{
+		return 10 * (a + b) - (a - b);
+	}
 };
